@@ -3,7 +3,7 @@
  */
 #define KBUILD_MODNAME "extfuse"
 #include <uapi/linux/bpf.h>
-#include "bpf_helpers.h"
+#include <bpf_helpers.h>
 
 #include <linux/version.h>
 #include <linux/fs.h>
